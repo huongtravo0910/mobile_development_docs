@@ -13,7 +13,7 @@
 - Domain (business) layer
 - Presentation layer
 
-## Important technique
+## Technique
 
 - Dependency injection
 
@@ -23,7 +23,7 @@
 - Integration test
 - E2E test - **Appium test**
 
-## Other important concepts
+## Other concepts
 
 - Modular architecture
 - Threads
