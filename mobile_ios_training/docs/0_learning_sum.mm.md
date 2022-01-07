@@ -1,0 +1,99 @@
+# General knowledge
+
+- Testing
+  - Unit Test
+  - UI Test
+  - Integration Test
+  - Automation Test
+    - Appium
+    - [WebdriverIo (JavaScript)](https://github.com/webdriverio/webdriverio)
+
+      - - [Docs](https://webdriver.io/docs/gettingstarted)
+
+    - [Project](https://github.com/huongtravo0910/appinum_example)
+      - For iOS app
+- UI design patterns
+    - MVC
+    - MVVM
+- UI System design
+- Technical technique
+  - Dependency injection pattern
+- Architecture
+  - Multilayered architecture
+    - Data layer
+      - Repository pattern
+    - Business logic layer
+    - UI layer
+  - Modular architecture
+- App State
+  - Terminate
+  - Suspend
+  - Background
+  - Foreground
+    - inactive
+    - active
+- Threads
+  - Main thread
+  - Background threads
+  - Concurrency problems and solutions
+
+# iOS
+
+- SwiftUI
+  - What?
+    - Declarative, State-driven framework
+  - Entry point
+    - @main(a struct) ->(extends) App ->(extends) Scene
+  - Combine framework
+    - ObservableObject
+    - @ObservedObject
+    - @EnvironmentObject
+    - @Published
+    - @State
+    - @Binding
+  - [Project](https://github.com/huongtravo0910/MarvelAPIExample)
+    - DI
+      - Library used
+      - [Resolver](https://github.com/hmlongco/Resolver)
+    - Architectural design pattern
+      - MVVM
+
+- UIKit
+  - What?
+    - Imperative, Event-driven framework
+  - Entry point
+    - AppDelegate
+  - Interface
+    - Reusable Components
+      - Static View components
+        - View
+      - Interactive components
+        - View
+        - Delegate
+        - view.isUserInteractionEnabled = true (viewDidLoad())
+    - ViewController
+      - Hierarchy
+        - Parentage
+          - UINavigationController
+          - UITabBarController
+          - UIPageViewController
+        - Presentation (Modal)
+          - present(\_:animated:completion:)
+          - dismiss(animated:completion:)
+      - Ways Obtain view
+        - Manual view
+        - Generic Automatic View
+        - View in a Separate Nib
+    - UIScrollView
+      - visible + non-visible items
+      - slow rendering (large items)
+    - UITableView ( vs UICollectionView)
+      - visible items
+      - use UITableView instead of UIScrollView
+    - Ipad Interface
+      - Popovers
+      - Split Views
+      - iPad multitasking
+      - Drag and Drop
+      - Pointer and Keyboard
+      - Multiple Windows
